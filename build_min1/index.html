@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta content="ie-edge" http-equiv="x-ua-compatible"><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="./styles/app.min.css?2">
+  </head>
+  <body>
+    <div class="content">
+      <section class="bnr_min">
+        <div class="bnr_min__head">
+          <div class="select">
+            <input id="item00" name="sortType" type="radio" value="item00" checked="checked">
+            <label id="item_1" for="item00">Bitcoin (BTC) </label>
+            <input id="item01" name="sortType" type="radio" value="item01">
+            <label id="item_2" for="item01">Litecoin (LTC)</label>
+            <input id="item02" name="sortType" type="radio" value="item02">
+            <label id="item_3" for="item02">Ethereum (ETH) </label>
+            <input id="item03" name="sortType" type="radio" value="item03">
+            <label id="item_4" for="item03">Monero (XMR)  </label>
+            <input id="item04" name="sortType" type="radio" value="item04">
+            <label id="item_5" for="item04">Ripple (XRP)  </label>
+          </div>
+        </div>
+        <div class="bnr_min__content">
+          <div class="bnr_min__item">
+            <div class="bnr_min__title"><span>RANK</span></div>
+            <div class="bnr_min__desc"><span id="rank">60</span></div>
+          </div>
+          <div class="bnr_min__item">
+            <div class="bnr_min__title"><span>MARKET CAP </span></div>
+            <div class="bnr_min__desc"><span id="market">54,97 M USD </span></div>
+          </div>
+          <div class="bnr_min__item">
+            <div class="bnr_min__title"><span>VOLUME (24H) </span></div>
+            <div class="bnr_min__desc"><span id="volume">206,21 K USD</span></div>
+          </div>
+        </div>
+        <div class="bnr_min__footer"><span>Powered by <a href="#">iex.net</a></span></div>
+        <div class="bnr_min__img" id="img_bg" style="background-image: url(./images/i/Bitcoin.svg)"></div>
+      </section>
+    </div>
+    <script src="./scripts/app.js?2"></script>
+    <script>
+      //- $('.select').click(function(e) {
+      //-     e.preventDefault();
+      //-     e.stopPropagation();
+      //-     $(this).toggleClass('expanded');
+      //-     $('#'+$(e.target).attr('for')).prop('checked',true);
+      //- });
+      
+      //- $(document).click(function() {
+      //-     $('.select').removeClass('expanded');
+      //- });
+    </script>
+  </body>
+</html>
