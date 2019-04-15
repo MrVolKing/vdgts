@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+#xchng-ask-value{
+	padding-top: 2px;
+}
+
+#xchng-logo b{
+	font-size: 8px !important;
+	color: #14E4CB;
+	opacity: 1 !important;
+	text-decoration: underline;
+	font-weight: 400;
+}
+
+#xchng-main-value span{
+	text-shadow: 0 0.25rem 0.1875rem rgba(0, 0, 0, 0.15); 
+	font-size: 30px!important; 
+	color: #122357;
+}
