@@ -66,7 +66,12 @@ a {
 .wrapper {
   width: 17.5rem;
   height: 21rem;
-  background-color: white; }
+  background-color: white;
+  border: 1px solid #122357;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
   .wrapper__head {
     background: -webkit-gradient(linear, left top, right top, from(#050F2F), to(#122357));
     background: linear-gradient(90deg, #050F2F 0%, #122357 100%);
